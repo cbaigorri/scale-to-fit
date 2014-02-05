@@ -1,0 +1,27 @@
+{
+  "name": "ScaleToFit",
+  "title": "Scaletofit",
+  "description": "Scale an item to fill an area without distorting.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cbaigorri/scale-to-fit",
+  "author": {
+    "name": "Chris Baigorri",
+    "email": "cbaigorri@gmail.com",
+    "url": "chrisbaigorri.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbaigorri/scale-to-fit.git"
+  },
+  "bugs": "https://github.com/cbaigorri/scale-to-fit/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/cbaigorri/scale-to-fit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}

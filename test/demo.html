@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Scaletofit Demo</title>
+  <script src="../libs/jquery-loader.js"></script>
+  <script src="../src/ScaleToFit.js"></script>
+  <style type="text/css">
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    #main-container {
+
+    }
+
+    .intrinsic-element {
+      height: 0;
+      padding-bottom: 56.25%; /* 16x9 */
+      position: relative;
+      background: green;
+      width:  100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="main-container">
+    <div class="intrinsic-element">
+      I am instrinsic
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  $(document).ready(function(){
+
+    $('#main-container').scaleToFit({
+      scaleTo: $('body')
+      , crop: false
+    });
+
+  });
+  </script>
+
+</body>
+</html>
